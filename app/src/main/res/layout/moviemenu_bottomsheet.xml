@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="48dp"
+    android:paddingBottom="16dp"
+    android:background="@color/colorWhite"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+        android:id="@+id/tv_bottomsheet_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_bottom_sheet_dialog_fragment"
+        android:focusable="false"
+        android:foreground="?selectableItemBackground"
+        android:clickable="true"
+        android:text="Category"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_popular"
+        style="@style/ButtomSheetTvButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/popular" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tv_upcoming"
+        style="@style/ButtomSheetTvButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upcoming" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tv_toprated"
+        style="@style/ButtomSheetTvButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/top_rated" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tv_nowplaying"
+        style="@style/ButtomSheetTvButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/now_playing" />
+</LinearLayout>

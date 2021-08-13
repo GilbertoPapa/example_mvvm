@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen2dp">2dp</dimen>
+    <dimen name="dimen20dp">20dp</dimen>
+    <dimen name="dimen24dp">24dp</dimen>
+    <dimen name="dimen64dp">64dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">12dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="buttomsheet_tvbutton_padding">12dp</dimen>
+</resources>
